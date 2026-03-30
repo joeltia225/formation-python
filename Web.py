@@ -11,7 +11,7 @@ todos = functions.get_todos()
 
 
 st.title("My Todo App")
-st.set_page_config(page_title="Mon application")
+st.set_page_config(page_title="Mon application", layout="wide")
 st.subheader("This is my todo app.")
 st.write("This app is to increase your productivity")
 
@@ -27,7 +27,7 @@ st.text_input(label="", placeholder="Add new todo...",
               on_change=add_todo, key='new_todo')
 
 #print("Hello")
-st.session_state
+##st.session_state
 
 
 #st.checkbox("Buy grocery !")
